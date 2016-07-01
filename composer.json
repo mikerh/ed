@@ -1,0 +1,23 @@
+{
+    "name": "mikerh/ed",
+    "description": "Laravel ExtJS/Sencha direct provider",
+    "keywords": ["extjs", "extdirect", "laravel4"],
+    "authors": [
+        {
+            "name": "bulforce",
+            "email": "bulforce@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Bulforce\\ExtDirect\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
